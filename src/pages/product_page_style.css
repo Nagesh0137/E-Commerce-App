@@ -1,0 +1,81 @@
+/* view btn style */
+.view-btn button {
+    --bg: #79d319;
+    color: #eee !important;
+    position: relative;
+    width: 120px;
+    font-weight: bold;
+    border: none;
+    background: var(--bg);
+    color: var(--text-color);
+    padding: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.2s;
+    border-radius: 5px;
+    opacity: 0.8;
+    text-shadow: 1px 0px 3px #000;
+    letter-spacing: 1px;
+    box-shadow: #76ae39 0px 7px 2px, #000 0px 8px 5px;
+}
+
+.view-btn button:hover {
+    opacity: 1;
+}
+
+.view-btn button:active {
+    top: 4px;
+    box-shadow: #76ae39 0px 3px 2px, #000 0px 3px 5px;
+}
+
+/* skeltan loading style */
+
+.container {
+    margin: 20px;
+}
+
+.loading-container,
+.error-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    overflow: hidden;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-card-body {
+    padding: 15px;
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.product-price {
+    color: #ff4d4d;
+    font-weight: bold;
+    margin: 10px 0;
+}

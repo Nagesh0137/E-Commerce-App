@@ -1,18 +1,19 @@
 import React from "react";
 import "./navbar_style.css";
+import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-red navbar-dark">
         <div className="wrapper"></div>
         <div className="container-fluid all-show">
-          <a className="navbar-brand w-25 p-0 m-0" href="#">
+          <NavLink className="navbar-brand w-25 p-0 m-0" to="/">
             <img
               src="./e-commerce-high-resolution-logo-transparent.png"
               alt=""
               className="p-0 m-0"
             />
-          </a>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"

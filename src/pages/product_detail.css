@@ -1,0 +1,160 @@
+.card {
+    border: none
+}
+
+.product {
+    background-color: #eee
+}
+
+.brand {
+    font-size: 13px
+}
+
+.act-price {
+    color: red;
+    font-weight: 700
+}
+
+.dis-price {
+    text-decoration: line-through
+}
+
+.about {
+    font-size: 14px
+}
+
+.color {
+    margin-bottom: 10px
+}
+
+label.radio {
+    cursor: pointer
+}
+
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+label.radio span {
+    padding: 2px 9px;
+    border: 2px solid #ff0000;
+    display: inline-block;
+    color: #ff0000;
+    border-radius: 3px;
+    text-transform: uppercase
+}
+
+label.radio input:checked+span {
+    border-color: #ff0000;
+    background-color: #ff0000;
+    color: #fff
+}
+
+.btn-danger {
+    background-color: #ff0000 !important;
+    border-color: #ff0000 !important
+}
+
+.btn-danger:hover {
+    background-color: #da0606 !important;
+    border-color: #da0606 !important
+}
+
+.btn-danger:focus {
+    box-shadow: none
+}
+
+.cart i {
+    margin-right: 10px
+}
+
+/* style */
+.images {
+    position: relative;
+}
+
+.discount-badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #ff4d4d;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.discount-badge svg {
+    margin-right: 5px;
+}
+
+#main-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.thumbnail img {
+    cursor: pointer;
+    margin: 5px;
+    transition: transform 0.2s;
+}
+
+.thumbnail img:hover {
+    transform: scale(1.1);
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart button {
+    margin-right: 10px;
+}
+
+.brand {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.product h5 {
+    font-size: 22px;
+}
+
+.price .act-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff4d4d;
+}
+
+.price .dis-price {
+    font-size: 16px;
+    color: #777;
+}
+
+.rating {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.category {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.about {
+    margin-top: 20px;
+}
+
+.add-cart {
+    background-color: #8abe53 !important;
+}
