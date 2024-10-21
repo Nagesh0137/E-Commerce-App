@@ -1,8 +1,49 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# E-Commerce-App
 
-Currently, two official plugins are available:
+Follow these instructions to set up and run the project on your local machine.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Nagesh0137/E-Commerce-App.git
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+## Demo Host Live link
+
+https://nagesh0137.github.io/E-Commerce-App/
+
+
+![Logo](https://nagesh0137.github.io/E-Commerce-App/e-commerce-high-resolution-logo-transparent.png)
+
+
+## Authors
+
+- [@Nagesh0137](https://www.github.com/nagesh0137)
+
+
+## 🚀 About Me
+I'm a MERN stack developer...
+
+
